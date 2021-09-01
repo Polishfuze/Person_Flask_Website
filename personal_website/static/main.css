@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.topbar {
+    position: fixed;
+    height:70px;
+    width:100%;
+    background: #9AD4D6;
+    color: #101935;
+    z-index:9999;
+}
+
+.topbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100%;
+}
+
+.topbar-item {
+    background: #528586;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 10vw;
+}
+
+.backgrounddark {
+    color: #F2FDFF;
+    background-color: #101935;
+}
+
+.backgroundlight {
+    color: #101935;
+    background-color: #9AD4D6;
+}
+
+.spacer {
+    aspect-ratio: 1920/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('./separator1.svg')
+}
+
+.layer2{
+    background-image: url('./separator2.svg')
+}

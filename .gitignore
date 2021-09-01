@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# AWS Stuff
+.ebextensions
+config.py
+
+# ZIPs
+.zip
